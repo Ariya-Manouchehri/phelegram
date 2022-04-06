@@ -1,0 +1,30 @@
+#serach_label{
+    -fx-background-color: #8ca6e8;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: #ffffff;
+}
+#serach_button{
+    -fx-background-color: #8ca6e8;
+    -fx-text-fill: #ffffff;
+}
+#serach_button:pressed{
+    -fx-background-color: #2960e8;
+}
+#vbox_background{
+    -fx-background-color: #1b2444;
+}
+#hbox_background{
+    -fx-background-color: #1b2444;
+}
+#textfiled{
+    -fx-background-color: #1b2444;
+    -fx-text-fill: #ffffff;
+}
+#textfiled:hover{
+    -fx-background-color: #8ca6e8;
+    -fx-text-fill: #ffffff;
+}
+#textfiled:pressed{
+    -fx-background-color: #1b2444;
+    -fx-text-fill: #ffffff;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="250.0" stylesheets="@../css/search_group.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox fx:id="vbox_background" layoutX="342.0" layoutY="164.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox fx:id="hbox_background" alignment="CENTER" prefHeight="41.0" prefWidth="250.0" spacing="8.0">
+               <children>
+                  <TextField fx:id="serach_label" prefHeight="26.0" prefWidth="186.0" promptText="search">
+                     <font>
+                        <Font size="14.0" />
+                     </font></TextField>
+                  <Button fx:id="serach_button" mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" text="search">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets left="2.0" right="2.0" />
+               </padding>
+            </HBox>
+            <Label fx:id="textfiled" prefHeight="22.0" prefWidth="262.0" visible="false" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="Comic Sans MS" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

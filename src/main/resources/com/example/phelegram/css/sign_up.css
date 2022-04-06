@@ -1,0 +1,57 @@
+.text-field{
+    -fx-background-color: linear-gradient(to top left, #fff4d1, #ffd1db);
+    -fx-border-style: solid;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-border-insets: -5;
+    -fx-border-width: 3;
+    -fx-border-color: linear-gradient(to top left, #ffe759, #ff5373);
+}
+#sign_up_view{
+    -fx-background-color: linear-gradient(to top left, #ff6f6f, #ff425e);
+}
+#background_sign_in{
+    -fx-background-color: linear-gradient(to top left, #f1f1f1, #d5d5d5);
+}
+#phelegram{
+    -fx-text-fill: linear-gradient(to top left, #ff1894, #4ccde8, #fff141);
+}
+#sign_up{
+    -fx-background-color: linear-gradient(to top left, #ffe759, #ff5373);
+    -fx-border-style: solid;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-border-insets: -5;
+    -fx-border-width: 3;
+    -fx-border-color: linear-gradient(to top left, #ffe759, #ff5373);
+    -fx-text-fill: #494949;
+    -fx-font-style: bold;
+}
+#sign_up:hover{
+    -fx-background-color: linear-gradient(to top left, #ff5373, #ffe759);
+    -fx-border-style: solid;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-border-insets: -5;
+    -fx-border-width: 3;
+    -fx-border-color: linear-gradient(to top left, #ff5373,#ffe759);
+    -fx-font-style: bold;
+}
+#back_button{
+    -fx-border-radius: 2000;
+    -fx-background-radius: 2000;
+    -fx-background-color: linear-gradient(to top left, #F6B46F, #35ACF1);
+    -fx-border-color: linear-gradient(to top left, #F6B46F, #35ACF1);
+    -fx-border-insets: -5;
+    -fx-border-width: 3;
+    -fx-border-style: solid;
+}
+#back_button:hover{
+    -fx-border-radius: 2000;
+    -fx-background-radius: 2000;
+    -fx-background-color: linear-gradient(to top left, #ffa648, #149cf1);
+    -fx-border-color: linear-gradient(to top left, #ffa648, #149cf1);
+    -fx-border-insets: -5;
+    -fx-border-width: 3;
+    -fx-border-style: solid;
+}

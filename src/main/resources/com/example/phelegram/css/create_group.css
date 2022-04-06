@@ -1,0 +1,28 @@
+#vbox_background{
+    -fx-background-color: #1b2444;
+}
+#create_group_name{
+    -fx-background-color: #8ca6e8;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: #ffffff;
+}
+#cancel_creat_group_button{
+-fx-background-color: #ff4046;
+    -fx-text-fill: #ffffff;
+}
+#creat_group_button{
+    -fx-background-color: #099cef;
+    -fx-text-fill: #ffffff;
+}
+#cancel_creat_group_button:pressed{
+    -fx-background-color: #ff6c71;
+    -fx-text-fill: #ffffff;
+}
+#creat_group_button:pressed{
+    -fx-background-color: #7dccff;
+    -fx-text-fill: #ffffff;
+}
+#label_create_group{
+    -fx-background-color: linear-gradient(to top left, #ffdcbe, #cdebff);
+    -fx-text-fill: linear-gradient(to top left, #ff8b17, #0e82f5);;
+}

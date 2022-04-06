@@ -1,0 +1,47 @@
+.text-field{
+    -fx-background-color: linear-gradient(to top left, #cdebff, #ffdcbe);
+    -fx-border-style: solid;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-border-insets: -5;
+    -fx-border-width: 3;
+    -fx-border-color: linear-gradient(to top left, #35ACF1, #F6B46F);
+}
+#sign_in_view{
+    -fx-background-color: linear-gradient(to top left, #35a87d, #179d92);
+}
+#background_sign_in{
+    -fx-background-color: linear-gradient(to top left, #f1f1f1, #d5d5d5);
+}
+#phelegram{
+    -fx-text-fill: linear-gradient(to top left, #ff3481, #4fff87,#ffffff);
+}
+#sign_in{
+    -fx-background-color: linear-gradient(to top left, #F6B46F, #35ACF1);
+    -fx-border-style: solid;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-border-insets: -5;
+    -fx-border-width: 3;
+    -fx-border-color: linear-gradient(to top left, #F6B46F, #35ACF1);
+    -fx-text-fill: #494949;
+}
+#sign_in:hover{
+    -fx-background-color: linear-gradient(to top left, #35ACF1,#F6B46F);
+    -fx-border-style: solid;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-border-insets: -5;
+    -fx-border-width: 3;
+    -fx-border-color: linear-gradient(to top left, #35ACF1,#F6B46F);
+}
+#dont_have_acount{
+    -fx-text-fill: #5b5b5b;
+}
+#sign_up{
+    -fx-text-fill: #1487ee;
+}
+#sign_up:hover{
+    -fx-text-fill: #1487ee;
+    -fx-font-size: 16;
+}

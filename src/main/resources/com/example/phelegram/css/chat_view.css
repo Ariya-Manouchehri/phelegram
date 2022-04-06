@@ -1,0 +1,76 @@
+#vbox_view{
+    -fx-background-color: #1b2444;
+}
+#phelegram{
+    -fx-text-fill: linear-gradient(to top left, #ff3d3d, #179d92);
+}
+#group_list{
+    -fx-background-color: #1b2444;
+}
+#group_list .list-cell{
+    -fx-background-color: #1b2444;
+    -fx-cursor: pointer;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-text-fill: #ffffff;
+}
+#group_list .list-cell:focused{
+    -fx-background-color: #d32222;
+}
+#chat_list{
+    -fx-background-color: linear-gradient(to top left, #e3e3e3, #dbfff8);
+}
+#chat_list .list-cell{
+    -fx-background-color: linear-gradient(to top left, #e3e3e3, #dbfff8);
+}
+#vbox_background{
+    -fx-background-color: linear-gradient(to top left, #e3e3e3, #dbfff8);
+}
+#group_item{
+    -fx-background-color: #1b2444;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+#h_box_combobox{
+    -fx-background-color: #1b2444;
+}
+.tool_bar_button{
+    -fx-background-color: linear-gradient(to top left, #F6B46F, #35ACF1);
+    -fx-border-style: solid;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-border-insets: -5;
+    -fx-border-width: 3;
+    -fx-border-color: linear-gradient(to top left, #F6B46F, #35ACF1);
+    -fx-text-fill: #494949;
+}
+.tool_bar_button:hover {
+    -fx-background-color: linear-gradient(to top left, #ff931c, #008fe1);
+    -fx-border-style: solid;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-border-insets: -5;
+    -fx-border-width: 3;
+    -fx-border-color: linear-gradient(to top left, #ff931c, #008fe1);
+    -fx-text-fill: #494949;
+}
+#send_message{
+    -fx-background-color: linear-gradient(to top left, #7dccff, #ffc08b);
+    -fx-border-style: solid;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-text-fill: #494949;
+    -fx-prompt-text-fill: #494949;
+}
+#send_button{
+    -fx-background-color: linear-gradient(to top left, #7dccff, #ffc08b);
+    -fx-border-style: solid;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+#send_button:pressed{
+    -fx-background-color: linear-gradient(to top left, #ff931c, #008fe1);
+    -fx-border-style: solid;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}

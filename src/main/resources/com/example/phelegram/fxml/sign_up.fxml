@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/sign_up.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <VBox fx:id="background_sign_in" alignment="TOP_CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label alignment="CENTER" prefHeight="41.0" prefWidth="179.0" text="log In">
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="Ravie" size="30.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="username" promptText="Username" VBox.vgrow="ALWAYS">
+                    <VBox.margin>
+                        <Insets left="15.0" right="15.0" top="40.0" />
+                    </VBox.margin>
+                </TextField>
+            <Label fx:id="user_name_error" prefHeight="18.0" prefWidth="262.0" text="Label" textFill="#ff1a1a" visible="false">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+            <PasswordField fx:id="password" promptText="Password" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets left="15.0" right="15.0" top="20.0" />
+               </VBox.margin>
+            </PasswordField>
+            <Label fx:id="password_error" prefHeight="18.0" prefWidth="266.0" text="Label" textFill="#ff1a1a" visible="false">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+            <PasswordField fx:id="confrim_password" promptText="Confirm password" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets left="15.0" right="15.0" top="20.0" />
+               </VBox.margin>
+            </PasswordField>
+            <HBox prefHeight="10.0" prefWidth="300.0">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </HBox>
+                <Button fx:id="sign_up" mnemonicParsing="false" prefHeight="27.0" prefWidth="360.0" text="Sign Up" VBox.vgrow="ALWAYS">
+                    <VBox.margin>
+                        <Insets left="15.0" right="15.0" top="30.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="Impact" size="14.0" />
+                    </font>
+                </Button>
+            </children>
+        </VBox>
+        <VBox fx:id="sign_up_view" alignment="TOP_CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="0.0">
+            <children>
+            <HBox prefHeight="85.0" prefWidth="290.0">
+               <VBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </VBox.margin>
+               <children>
+                  <Button fx:id="back_button" mnemonicParsing="false" prefHeight="30.0" prefWidth="67.0" text="Back">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../drawable/icon_back.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+                <ImageView fitHeight="150.0" fitWidth="205.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../drawable/app.png" />
+                    </image>
+                </ImageView>
+                <Label fx:id="phelegram" text="Phelegram">
+                    <font>
+                        <Font name="Berlin Sans FB" size="38.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
